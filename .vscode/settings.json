@@ -1,0 +1,64 @@
+{
+  // editor
+  "editor.fontSize": 14,
+  //"editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  //terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  //"terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "workbench.colorTheme": "Learn with Sumit Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  // controls the color of the terminal
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "#171c2a",
+    "terminal.ansiRed": "#E35535",
+    "terminal.ansiGreen": "#52AB62",
+    "terminal.ansiYellow": "#ffd866",
+    "terminal.ansiBlue": "#00B3BD",
+    "terminal.ansiMagenta": "#e991e3",
+    "terminal.ansiCyan": "#78e8c6",
+    "terminal.ansiWhite": "#FFFFFFcc",
+    "terminal.ansiBrightBlack": "#00B3BD",
+    "terminal.ansiBrightRed": "#E35535",
+    "terminal.ansiBrightGreen": "#52AB62",
+    "terminal.ansiBrightYellow": "#ffd866",
+    "terminal.ansiBrightBlue": "#00B3BD",
+    "terminal.ansiBrightMagenta": "#e991e3",
+    "terminal.ansiBrightCyan": "#78e8c6",
+    "terminal.ansiBrightWhite": "#00B3BD",
+    "terminal.background": "#171c2a",
+    "terminalCursor.background": "#ffd866",
+    "terminalCursor.foreground": "#ffd866"
+  }
+}
